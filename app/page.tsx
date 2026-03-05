@@ -90,7 +90,6 @@ const Home = () => {
     e.preventDefault();
     alert(`Request sent for: ${requestForm.name} at ₹${requestForm.price}`);
     setRequestForm({ name: '', price: '', description: '' });
-    setIsModalOpen(false);
   };
 
   const handleCompleteOrder = () => {
